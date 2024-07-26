@@ -39,7 +39,7 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex,intervie
       },[results])
 
       useEffect(()=>{
-        if(!isRecording&&userAnswer?.length>10)
+        if(!isRecording&&userAnswer?.length>20)
         {
           UpdateUserAnswer();
         } 
